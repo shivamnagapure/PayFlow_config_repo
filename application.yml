@@ -1,0 +1,13 @@
+server:
+  port: 0   # All services will run on random ports unless overridden
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
