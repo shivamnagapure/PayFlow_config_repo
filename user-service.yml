@@ -3,6 +3,6 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/userdb
+    url: jdbc:mysql://localhost:3306/payflow_wallet
     username: root
-    password: root
+    password: Shivam@123
