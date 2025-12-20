@@ -16,13 +16,7 @@ spring:
       ddl-auto: update
     show-sql: true
 
-# jwt:
-#   secret: payflow-secret-key
-#   expiration: 900000   # 15 minutes
-
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: true
-    fetch-registry: true
