@@ -5,7 +5,7 @@ server:
     url: jdbc:postgresql://localhost:5432/payflow_auth
     username: postgres
     password: Shivam@123
-    driver-class-name: org.postgresql.Driver  # Add this
+    # driver-class-name: org.postgresql.Driver  # Add this
 
   jpa:
     hibernate:
